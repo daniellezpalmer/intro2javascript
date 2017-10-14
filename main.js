@@ -51,14 +51,15 @@ let today = 2017;
 // 8.
 // Adjust this code. Store some information in the following variables.
 // A:
-let yourName;
-let instructorName;
+>> let yourName = "Danielle";
+>> let instructorName = "Shahzad";
 
 
 // 9.
 // Update the variables `yourName` and `instructorName` so the expression below reads correctly.
 // A:
-
+>> let yourName = "Danielle";
+>> let instructorName = "Shahzad"
 
 // This statement should read correctly
 let statement = yourName + " is taking a class at The Iron Yard, my instructor's name is " + instructorName;
@@ -67,11 +68,11 @@ let statement = yourName + " is taking a class at The Iron Yard, my instructor's
 // 10.
 // We've created a variable named after each primitive type.
 // Use the `=` operator to assign a value to each variable matching the type in the name.
-let myNumber;
-let myString;
-let myBoolean;
+>> let myNumber = 10;
+>> let myString = "hello";
+>> let myBoolean = true;
 // This one's a little tricky - think carefully about what makes a value "undefined"!
-let myUndefined;
+>> let myUndefined = " ";
 // A:
 
 
@@ -80,47 +81,47 @@ let myUndefined;
 // 11.
 let x = (false == 0);
 // A.
-
+>> true
 
 // 12.
 let y = (false == "");
 // A.
-
+>> true
 
 // 13.
 let z = (0 == "");
 // A.
-
+>> true
 
 // 14.
 let a = (null == null);
 // A.
-
+>> true
 
 // 25.
 let b = (undefined == undefined);
 // A.
-
+>> true
 
 // 16.
 let c = (undefined == null);
 // A.
-
+>> true
 
 // 17.
 let d = (null == false);
 // A.
-
+>> false
 
 // 18.
 let e = (NaN == null);
 // A.
-
+>> false
 
 // 19.
 let f = (NaN == NaN);
 // A.
-
+>> false
 
 // 20.
 // Fix the `if...else` statement below by adding an `if` keyword and conditional expression.
