@@ -8,3 +8,4 @@ Practice writin variable and console.log, use dev tools in chrome to check if tr
 - [x] Link JS to HTML files
 
 ## Challenges
+- Understanding why a value is undefined

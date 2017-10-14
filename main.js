@@ -129,7 +129,7 @@ let f = (NaN == NaN);
 // A:
 let thirsty = true;
 
-{
+>> if(thirsty){
   console.log("I'm parched!");
 } else {
   console.log("I've had enough to drink.");
@@ -146,7 +146,7 @@ if(x){
 	console.log("False!");
 }
 // A:
-
+>> false
 
 // 22.
 if(""){
@@ -155,7 +155,7 @@ if(""){
 	console.log("False!");
 }
 // A:
-
+>> false
 
 // 23.
 // this expression will set x to NaN
@@ -167,7 +167,7 @@ if(x){
 	console.log("False!");
 }
 // A:
-
+>> false
 
 // 24.
 if(false){
@@ -176,7 +176,7 @@ if(false){
 	console.log("False!");
 }
 // A:
-
+>> false
 
 // 25.
 if(-5 && 5){
@@ -185,7 +185,7 @@ if(-5 && 5){
 	console.log("False!");
 }
 // A:
-
+> true
 
 // 26.
 if("Hello World!"){
@@ -194,7 +194,7 @@ if("Hello World!"){
 	console.log("False!");
 }
 // A:
-
+>> true
 
 // 27.
 if({}){
@@ -203,7 +203,7 @@ if({}){
 	console.log("False!");
 }
 // A:
-
+>> true
 
 // 28.
 if({name: "Yehuda Katz"}){
@@ -212,7 +212,7 @@ if({name: "Yehuda Katz"}){
 	console.log("False!");
 }
 // A:
-
+>> true
 
 // 29.
 if(new Date()){
@@ -221,7 +221,7 @@ if(new Date()){
 	console.log("False!");
 }
 // A:
-
+>> true
 
 // 30.
 // Link this file to the sibling `index.html` document, open the file in your browser and make sure there are no errors in your console.
