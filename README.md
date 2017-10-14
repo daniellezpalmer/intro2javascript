@@ -5,6 +5,6 @@ Practice writin variable and console.log, use dev tools in chrome to check if tr
 
 ## TODOS
 - [ ] Practice questions 1-30
-- [ ] Link JS to HTML files
+- [x] Link JS to HTML files
 
 ## Challenges
